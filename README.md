@@ -116,6 +116,7 @@ Blocking updates doesn't help: see [Updates: let them happen](#updates-let-them-
 | `patches/wine-11.0-cricut.patch` | The same patch for Wine 11.0 stable (Step 4) |
 | `scripts/install-patched-dlls.sh` | Installs the patched DLLs for Design Space's helpers only (Step 4) |
 | `udev/99-cricut-raw.rules` | Puts the cutter's serial port in raw mode (Step 5) |
+| `native/` | Experimental and separate from the steps below: scripts that talk to a Maker 3 directly, without Design Space, and notes on the USB protocol. See [native/README.md](native/README.md) |
 
 All scripts use the prefix `~/Games/cricut`. Set `WINEPREFIX` to use another one.
 
